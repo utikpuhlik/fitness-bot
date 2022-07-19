@@ -1,0 +1,1 @@
+main_menu_buttons = ['Lectures', 'Checklists', 'Complexes', 'Calories Calculator']

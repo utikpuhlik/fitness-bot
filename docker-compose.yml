@@ -1,0 +1,17 @@
+version: "3.2"
+
+services:
+
+  tgbot:
+    container_name: mangobot
+    build:
+      context: .
+    command: python app.py
+    restart: always
+
+    env_file:
+      - ".env"
+
+    volumes:
+      - .:/src
+
